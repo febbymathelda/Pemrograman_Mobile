@@ -1,0 +1,37 @@
+2. Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter ? Jelaskan!
+Jawab:
+Bahasa pemrograman Dart sangat penting sebelum menggunakan framework Flutter karena:
+
+-Fundamental Programming Concepts: Dart adalah bahasa dasar yang digunakan untuk menulis aplikasi Flutter. Pemahaman tentang variabel, tipe data, fungsi, objek, dan struktur kontrol (seperti perulangan dan kondisi) sangat penting untuk mengimplementasikan logika aplikasi.
+-OOP (Object-Oriented Programming): Flutter sangat bergantung pada konsep OOP seperti class, inheritance, dan polymorphism, yang semuanya ditulis dalam Dart. Memahami OOP di Dart membantu mengorganisir kode dengan baik dan mengikuti pola desain yang efisien.
+-Efficient Use of Flutter: Banyak fitur canggih di Flutter, seperti state management, widget composition, dan asynchronous programming (menggunakan async dan await), sangat terkait dengan fitur Dart. Tanpa memahami cara kerja Dart, sulit untuk menggunakan fitur ini secara maksimal.
+-Performance Optimization: Dart dirancang untuk performa yang cepat di Flutter. Memahami Dart memungkinkan pengembang mengoptimalkan aplikasi agar berjalan lebih cepat dan menggunakan memori lebih efisien.
+-Asynchronous Programming: Flutter banyak menggunakan operasi asynchronous seperti fetching data dari API atau membaca file. Dart memiliki fitur bawaan seperti Future dan Stream untuk menangani asynchronous, dan memahaminya membantu pengelolaan data secara efisien tanpa membekukan UI.
+
+3. Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gunakan untuk membantu proses pengembangan aplikasi mobile menggunakan framework Flutter
+Jawab:
+Bahasa Dart adalah inti dari framework Flutter.
+Dart bertujuan untuk menggabungkan kelebihan-kelebihan dari sebagian besar bahasa tingkat tinggi dengan fitur-fitur bahasa pemrograman terkini, antara lain sebagai berikut:
+
+Productive tooling: merupakan fitur kakas (tool) untuk menganalisis kode, plugin IDE, dan ekosistem paket yang besar.
+Garbage collection: untuk mengelola atau menangani dealokasi memori (terutama memori yang ditempati oleh objek yang tidak lagi digunakan).
+Type annotations (opsional): untuk keamanan dan konsistensi dalam mengontrol semua data dalam aplikasi.
+Statically typed: Meskipun type annotations bersifat opsional, Dart tetap aman karena menggunakan fitur type-safe dan type inference untuk menganalisis types saat runtime. Fitur ini penting untuk menemukan bug selama kompilasi kode.
+Portability: bahasa Dart tidak hanya untuk web (yang dapat diterjemahkan ke JavaScript) tetapi juga dapat dikompilasi secara native ke kode Advanced RISC Machines (ARM) dan x86.
+
+Kode Dart dapat dieksekusi pada lingkungan yang mendukung bahasa Dart. 
+Lingkungan yang mendukung bahasa Dart perlu memperhatikan fitur-fitur penting seperti berikut:
+-Runtime systems
+-Dart core libraries
+-Garbage collectors
+Operator Dart
+Dart mendukung operator standar seperti + (penjumlahan), - (pengurangan), * (perkalian), / (pembagian), dan ~/ (pembagian bilangan bulat). Ada juga operator perbandingan seperti ==, !=, <, >, <=, >=, dan operator logika seperti && (AND), || (OR), serta ! (NOT).
+Operator Inkrement dan Dekrement
+Dart memiliki operator untuk menambah (++) dan mengurangi (--) nilai variabel, yang digunakan dalam perulangan atau operasi aritmatika sederhana.
+Operator Logika
+Operator logika seperti &&, ||, dan ! digunakan untuk operasi boolean, cocok untuk membuat keputusan atau perbandingan logika di dalam kode.
+Type Safety
+Dart memiliki fitur type safety yang memastikan bahwa variabel tidak bisa berubah tipe sembarangan selama program berjalan. Operator == hanya membandingkan isi dari variabel, bukan alamat memori.
+Pemrograman Asynchronous
+Dart mendukung pemrograman asynchronous dengan async dan await, memudahkan pengelolaan tugas yang berjalan di latar belakang seperti mengambil data dari internet atau membaca file.
+
